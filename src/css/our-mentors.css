@@ -85,10 +85,7 @@
   padding-top: 16px;
   gap: 4px;
 }
-@media only screen and (min-width: 768px) {
-  .ourmentors-content {
-  }
-}
+
 
 .ourmentors-name {
   color: #fff;
