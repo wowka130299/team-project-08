@@ -1,0 +1,66 @@
+.advitrismant-section {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.container-advirtisment {
+  padding: 0;
+}
+.advertisment-container {
+  padding: 20px 0;
+  overflow: hidden;
+  text-transform: uppercase;
+  background-color: #121212;
+}
+
+.advertisment-inner {
+  display: flex;
+  white-space: nowrap;
+}
+
+.advertisment-line {
+  color: #bea69e;
+  font-family: 'DM Sans';
+  font-size: 28px;
+  line-height: 1.14;
+  letter-spacing: -0.8px;
+  flex-shrink: 0;
+  min-width: 100%;
+  animation-name: marqueeLine;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@media only screen and (min-width: 768px) {
+  .advertisment-container {
+    padding-top: 24px;
+  }
+  .advertisment-line {
+    font-size: 40px;
+    line-height: 1.25;
+    letter-spacing: -0.8px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .advertisment-line {
+    font-size: 59px;
+    line-height: 1.08;
+    letter-spacing: -1.18px;
+  }
+}
+
+.advertisment-accent {
+  color: #fff;
+}
+
+@keyframes marqueeLine {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}

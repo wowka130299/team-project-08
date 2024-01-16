@@ -1,0 +1,122 @@
+/* section our mentors */
+
+.ourmentors {
+  padding-bottom: 80px;
+}
+
+.ourmentors-title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+  margin-bottom: 40px;
+}
+@media only screen and (min-width: 768px) {
+  .ourmentors-title {
+    font-size: 48px;
+    line-height: 1.13; /* 112.5% */
+    margin-bottom: 50px;
+  }
+}
+
+.ourmentors-title-accent {
+  color: #bea69e;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+}
+@media only screen and (min-width: 768px) {
+  .ourmentors-title-accent {
+    font-size: 48px;
+    line-height: 1.13; /* 112.5% */
+    margin-bottom: 50px;
+  }
+}
+
+.ourmentors-list {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  gap: 40px;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  /* Tablet devices */
+  .ourmentors-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 100px;
+    row-gap: 93px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .ourmentors-list {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+}
+
+.ourmentors-item {
+  width: 185px;
+}
+
+@media only screen and (min-width: 768px) {
+  .ourmentors-item {
+    width: 194px;
+  }
+}
+
+.ourmentors-pict {
+  background: var(
+    --avatar-user-square-brianna-ware-neutral-background,
+    url(<path-to-image>),
+    lightgray 50% / cover no-repeat,
+    #e0e0e0
+  );
+  margin: 0 auto;
+}
+.ourmentors-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 16px;
+  gap: 4px;
+}
+@media only screen and (min-width: 768px) {
+  .ourmentors-content {
+  }
+}
+
+.ourmentors-name {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+@media only screen and (min-width: 768px) {
+  .ourmentors-name {
+    font-size: 28px;
+    line-height: 1.14; /* 114.286% */
+  }
+}
+
+.ourmentors-desc {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+}
+
+@media only screen and (min-width: 768px) {
+  .ourmentors-desc {
+    font-size: 14px;
+    line-height: 1.29; /* 128.571% */
+  }
+}

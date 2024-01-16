@@ -1,0 +1,93 @@
+<section class="section-sing-up" id="sign-up">
+  <div class="container sing-up-container">
+    <div class="sing-up-wrapper-info">
+      <h2 class="sing-up-title">
+        Sign <span class="sing-up-title-accent">Up</span>
+      </h2>
+      <p class="sing-up-text">
+        Please use the form below to contact us. Enter your name, email, and
+        message and we'll get back to you shortly.
+      </p>
+      <!-- form -->
+      <form class="sing-up-form">
+        <div class="sing-up-form-wrapper">
+          <div class="sing-up-form-elem">
+            <input
+              class="sing-up-form-input"
+              type="text"
+              id="user-name"
+              name="user-name"
+              placeholder="Enter your name"
+            />
+          </div>
+          <div class="sing-up-form-elem">
+            <input
+              class="sing-up-form-input"
+              type="email"
+              id="user-email"
+              name="user-email"
+              placeholder="Enter your email"
+            />
+          </div>
+          <div class="sing-up-form-elem">
+            <textarea
+              class="sing-up-form-message"
+              name="feedback"
+              rows="5"
+              placeholder="Message"
+            ></textarea>
+          </div>
+        </div>
+        <button class="sing-up-form-btn" type="submit" disabled>SEND</button>
+        <div class="sing-up-form-agreement">
+          <p>
+            By clicking on “Send” button, you agree to our
+            <a class="sinp-up-agreement-link" href="">Privacy Policy, </a>and
+            allow Promodo to use this information for marketing purposes.
+          </p>
+        </div>
+      </form>
+    </div>
+    <div class="sing-up-wrapper-photos">
+      <div class="sing-up-wrapper-lins">
+        <picture>
+          <!-- Desktop screen -->
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./img/sign-up/lense@1x.png 1x,
+              ./img/sign-up/lense@2x.png 2x
+            "
+          />
+
+          <img
+            class="sing-up-img-lense"
+            src="./img/sign-up/lense@1x.png"
+            alt="lense"
+            loading="lazy"
+          />
+        </picture>
+      </div>
+      <div class="sing-up-wrapper-camera">
+        <picture>
+          <!-- Desktop screen -->
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./img/sign-up/camera@1x.png 1x,
+              ./img/sign-up/camera@2x.png 2x
+            "
+          />
+
+          <img
+            class="sing-up-img-camera"
+            src="./img/sign-up/camera@1x.png"
+            alt="black camera "
+            loading="lazy"
+            width="240"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>

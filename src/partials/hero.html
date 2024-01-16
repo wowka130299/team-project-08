@@ -1,0 +1,98 @@
+<section class="hero-section">
+  <div class="container container-hero">
+    <div class="wrapper-bg">
+      <!-- <div class="hero-section-title"> -->
+      <div class="wrapper-title">
+        <h1>
+          Discover the magic of <span class="photography">photography</span> in
+          our school
+        </h1>
+        <p class="hero-section-title-info">
+          Our photography school offers an unforgettable journey, where you can
+          learn the basics of composition, master technical skills, translate
+          your unique ideas.
+        </p>
+        <div class="students-and-star">
+          <div class="students-section">
+            <ul class="students-list">
+              <li class="students-item">
+                <img
+                  class="students-img"
+                  src="./img/hero/girl1-mob1x.png"
+                  alt=""
+                />
+              </li>
+              <li class="students-item">
+                <img
+                  class="students-img"
+                  src="./img/hero/boy-mob1x.png"
+                  alt=""
+                />
+              </li>
+              <li class="students-item">
+                <img
+                  class="students-img"
+                  src="./img/hero/girl2-mob1x.png"
+                  alt=""
+                />
+              </li>
+            </ul>
+
+            <a href="">
+              <div class="students-arrow">
+                <p class="students-text">Our happy students</p>
+                <svg class="hero-arrow-icon" width="18" height="8.66">
+                  <use href="./public/favicon.svg#icon-rigth-arrow"></use>
+                </svg>
+              </div>
+            </a>
+          </div>
+
+          <div class="star-section">
+            <a class="hero-star-link" href="">
+              <svg class="hero-star" width="20" height="20">
+                <use href="./public/favicon.svg#icon-star"></use>
+              </svg>
+            </a>
+            <div class="star-numb">
+              <span class="hero-rev">Reviews</span>
+              <span class="hero-numb">+1500</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="img-hero">
+        <picture class="pct">
+          <!-- Desktop screen -->
+          <source
+            media="(min-width: 1280px)"
+            srcset="./img/hero/hero-desk1x.png, ./img/hero/hero-desk2x.png 2x"
+          />
+
+          <!-- Tablet screen -->
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./img/hero/hero-tablet1x.png,
+              ./img/hero/hero-tablet2x.png 2x
+            "
+          />
+
+          <!-- Mobile screen -->
+          <source
+            media="(max-width: 767px)"
+            srcset="./img/hero/hero-mob1x.png 1x, ./img/hero/hero-mob2x.png 2x"
+          />
+
+          <img
+            class="hero-box-src"
+            src="./img/hero/hero-mob1x.png"
+            alt="black camera and pink background"
+            loading="lazy"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>

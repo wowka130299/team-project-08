@@ -1,0 +1,33 @@
+body {
+  font-family: 'DM Sans';
+  font-weight: 400;
+
+  color: var(--main-color-white);
+  background-color: var(--black-color);
+  font-style: normal;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+.container {
+  min-width: 320px;
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 100px;
+  }
+}
