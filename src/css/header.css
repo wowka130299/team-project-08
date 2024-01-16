@@ -87,7 +87,7 @@
         }
 }
 
-.nav-list-item {
+.nav-link {
     color: #FFF;
     font-size: 14px;
     font-style: normal;
@@ -97,8 +97,8 @@
     transition: color 250ms ease-in-out;
 }
 
-.nav-list-item:hover,
-.nav-list-item:focus {
+.nav-link:hover,
+.nav-link:focus {
     color: rgba(190, 166, 158, 1);
 
 }
