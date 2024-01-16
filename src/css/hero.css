@@ -11,7 +11,7 @@
 /* MOBILE */
 
 .hero-section {
-  background-image: url(../img/hero/backHeroMob@1x.png);
+  background-image: url('../img/imgMob/backHermob1x.webp');
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
@@ -22,7 +22,7 @@
 
 @media only screen and (max-width: 767px) and (min-resolution: 192dpi) {
   .hero-section {
-    background-image: url('../img/hero/backHeroMob@2x.png');
+    background-image: url('../img/imgMob/backHermob2x.webp');
   }
 }
 
@@ -30,7 +30,7 @@
 
 @media only screen and (min-width: 768px) {
   .hero-section {
-    background-image: url('../img/hero/backHeroTab@1x.png');
+    background-image: url('../img/imgTab/backherotab1x.webp');
     background-size: cover;
 
     padding-top: 120px;
@@ -40,7 +40,7 @@
 
 @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .hero-section {
-    background-image: url('../img/hero/backHeroTab@2x.png');
+    background-image: url('../img/imgTab/backherotab2x.webp');
   }
 }
 
@@ -48,7 +48,7 @@
 
 @media only screen and (min-width: 1280px) {
   .hero-section {
-    background-image: url('../img/hero/backHeroDesc@1x.png');
+    background-image: url('../img/imgDesc/backHerodesc1x.webp');
     background-size: cover;
 
     padding-bottom: 150px;
@@ -58,7 +58,7 @@
 
 @media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
   .hero-section {
-    background-image: url('../img/hero/backHeroDesc@2x.png');
+    background-image: url('../img/imgDesc/backHerodesc2x.webp');
   }
 }
 
@@ -227,8 +227,7 @@ h1 {
   z-index: 1;
 }
 
-.students-img {
-}
+
 
 .students-and-star {
   display: flex;

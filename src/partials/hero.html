@@ -16,31 +16,108 @@
           <div class="students-section">
             <ul class="students-list">
               <li class="students-item">
-                <img
-                  class="students-img"
-                  src="./img/hero/girl1-mob1x.png"
-                  alt="blond girl"
-                  width="54"
-                  height="54"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 1280px)"
+                    srcset="
+                      ./img/imgDesc/girldesc1descdesc1x.webp 1x,
+                      ./img/imgDesc/girldesc1descdesc2x.webp 2x
+                    "
+                  />
+                  <!-- Tablet screen -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./img/imgDesc/girldesc1descdesc1x.webp 1x,
+                      ./img/imgDesc/girldesc1descdesc2x.webp 2x
+                    "
+                  />
+                  <!-- Mobile screen -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./img/imgMob/girlmob1mobmob1x.webp 1x,
+                      ./img/imgMob/girlmob1mobmob2x.webp 2x
+                    "
+                  />
+                  <img
+                    class="students-img"
+                    src="./img/imgMob/girlmob1mobmob1x.webp"
+                    alt="blond girl"
+                    width="54"
+                    height="54"
+                  />
+                </picture>
               </li>
               <li class="students-item">
-                <img
-                  class="students-img"
-                  src="./img/hero/boy-mob1x.png"
-                  alt="man"
-                  width="54"
-                  height="54"
-                />
+                <picture>
+                  <!-- Desctop screen -->
+                  <source
+                    media="(min-width: 1280px)"
+                    srcset="
+                      ./img/imgDesc/boydesc1x.webp 1x,
+                      ./img/imgDesc/boydesc1x.webp 2x
+                    "
+                  />
+                  <!-- Tablet screen -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./img/imgDesc/boydesc1x.webp 1x,
+                      ./img/imgDesc/boydesc1x.webp 2x
+                    "
+                  />
+                  <!-- Mobile screen -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./img/imgMob/boymob1x.webp 1x,
+                      ./img/imgMob/boymob2x.webp 2x
+                    "
+                  />
+                  <img
+                    class="students-img"
+                    src="./img/imgMob/boymob1x.webp"
+                    alt="man"
+                    width="54"
+                    height="54"
+                  />
+                </picture>
               </li>
               <li class="students-item">
-                <img
-                  class="students-img"
-                  src="./img/hero/girl2-mob1x.png"
-                  alt="girl"
-                  width="54"
-                  height="54"
-                />
+                <picture>
+                  <!-- Desctop screen -->
+                  <source
+                    media="(min-width: 1280px)"
+                    srcset="
+                      ./img/imgDesc/girldesc1x.webp 1x,
+                      ./img/imgDesc/girldesc2x.webp 2x
+                    "
+                  />
+                  <!-- Tablet screen -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./img/imgDesc/girldesc1x.webp 1x,
+                      ./img/imgDesc/girldesc2x.webp 2x
+                    "
+                  />
+                  <!-- Mobile screen -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./img/imgMob/girlmob1x.webp 1x,
+                      ./img/imgMob/girlmob2x.webp 2x
+                    "
+                  />
+                  <img
+                    class="students-img"
+                    src="./img/imgMob/girlmob1x.webp"
+                    alt="girl"
+                    width="54"
+                    height="54"
+                  />
+                </picture>
               </li>
             </ul>
 
@@ -73,30 +150,34 @@
           <!-- Desktop screen -->
           <source
             media="(min-width: 1280px)"
-            srcset="./img/hero/hero-desk1x.png, ./img/hero/hero-desk2x.png 2x"
+            srcset="
+              ./img/imgDesc/heriImgdesc1x.webp 1x,
+              ./img/imgDesc/heriImgdesc2x.webp 2x
+            "
           />
 
           <!-- Tablet screen -->
           <source
             media="(min-width: 768px)"
             srcset="
-              ./img/hero/hero-tablet1x.png,
-              ./img/hero/hero-tablet2x.png 2x
+              ./img/imgDesc/heriImgdesc1x.webp 1x,
+              ./img/imgDesc/heriImgdesc2x.webp 2x
             "
           />
 
           <!-- Mobile screen -->
           <source
             media="(max-width: 767px)"
-            srcset="./img/hero/hero-mob1x.png 1x, ./img/hero/hero-mob2x.png 2x"
+            srcset="
+              ./img/imgMob/heroImgmob1x.webp 1x,
+              ./img/imgMob/heroImgmob2x.webp 2x
+            "
           />
 
           <img
             class="hero-box-src"
-            src="./img/hero/hero-mob1x.png"
+            src="./img/imgMob/heroImgmob1x.webp"
             alt="black camera and pink background"
-            width="54"
-            height="54"
             loading="lazy"
           />
         </picture>

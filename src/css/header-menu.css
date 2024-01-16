@@ -46,7 +46,7 @@
 .menu-bgr {
     height: 100%;
     width: 100%;
-    background-image: url('../img/header-img/menumob@1x.png');
+    background-image: url('../img/imgMob/backHerMenumob1x.webp');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -54,14 +54,14 @@
 
 @media (min-resolution: 192dpi) {
     .menu-bgr {
-        background-image: url('../img/header-img/menumob@2x.png');
+        background-image: url('../img/imgMob/backHerMenumob2x.webp');
     }
     
 }
 
 @media screen and (min-width:768px) {
     .menu-bgr {
-        background-image: url('../img/header-img/menutab@1x.png');
+        background-image: url('../img/imgTab/backHedMentab1x.webp');
     }
         .header-menu {
         width: 480px;
@@ -70,7 +70,7 @@
 
 @media (min-resolution: 192dpi) and (min-width:768px) {
     .menu-bgr {
-        background-image: url('../img/header-img/menutab@2x.png');
+        background-image: url('../img/imgTab/backHedMentab2x.webp');
     }
 }
 
